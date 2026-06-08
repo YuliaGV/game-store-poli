@@ -51,7 +51,7 @@ export default function Navbar() {
         <Link href="/" className="text-2xl font-bold uppercase tracking-wider text-white">
           <span className="text-steam-accent">Bit & Byte Games</span>
         </Link>
-        <Link href="/" className="text-steam-text hover:text-white transition">TIENDA</Link>
+        <Link href="/store" className="text-steam-text hover:text-white transition">TIENDA</Link>
       </div>
       
       <div className="flex gap-4 items-center">

@@ -67,7 +67,7 @@ export default function Register() {
               className="w-1/2 p-3 bg-steam-bg text-white border border-steam-light rounded focus:outline-none focus:border-steam-accent" />
           </div>
           
-          <input type="email" name="email" placeholder="Correo Electrónico" onChange={handleChange} required
+          <input type="email" name="email" placeholder="Correo electrónico" onChange={handleChange} required
             className="p-3 bg-steam-bg text-white border border-steam-light rounded focus:outline-none focus:border-steam-accent" />
             
           <input type="tel" name="phoneNumber" placeholder="Teléfono" onChange={handleChange} required
