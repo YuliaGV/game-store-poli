@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
       <div className="bg-gradient-to-r from-steam-panel to-steam-light p-8 rounded-lg mb-10 shadow-lg">
-        <p className="text-steam-text">Encuentra los mejores juegos físicos y digitales.</p>
+        <p className="text-steam-text">Encuentra los mejores juegos físicos y digitales</p>
       </div>
 
-      <h2 className="text-2xl font-semibold mb-6 text-black">Destacados y recomendados</h2>
+      <h2 className="text-2xl font-semibold mb-6 text-white">Destacados y recomendados</h2>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {mockProducts.map((product) => (
