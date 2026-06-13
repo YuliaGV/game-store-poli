@@ -55,7 +55,7 @@ export default function Register() {
   return (
     <div className="flex justify-center items-center min-h-[80vh] px-4 py-8">
       <div className="bg-steam-panel p-8 rounded shadow-lg w-full max-w-md border border-steam-light">
-        <h1 className="text-3xl font-bold text-white mb-6 text-center">Crear Cuenta</h1>
+        <h1 className="text-3xl font-bold text-white mb-6 text-center">Crear cuenta</h1>
         
         {error && <p className="text-red-500 mb-4 text-sm">{error}</p>}
         
