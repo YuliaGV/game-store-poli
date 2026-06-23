@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import "./globals.css";
 
 export const metadata = {
-  title: "GameStore",
+  title: "Bit & Byte Games",
   description: "Catálogo de juegos físicos y digitales",
 };
 
